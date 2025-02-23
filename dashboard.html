@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Culture Exchange Hub Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <nav class="sidebar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="dashboard.html">User Profiles</a></li>
+            <li><a href="#">Post an Activity</a></li>
+            <li><a href="contact_us.html">Messages</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="logout.php">Logout</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <header>
+            <h1>Welcome to the Global Culture Exchange Hub</h1>
+        </header>
+
+        <div class="content-container">
+            <div class="statistics">
+                <div class="stat-box">
+                    <h2>Total Users</h2>
+                    <p id="user-count">Loading...</p>
+                </div>
+                <div class="stat-box">
+                    <h2>Upcoming Events</h2>
+                    <p id="event-count">Loading...</p>
+                </div>
+            </div>
+
+            <div class="user-activities">
+                <h2>Recent Activities</h2>
+                <ul id="activities-list">
+                    <!-- Activities will be populated here -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
